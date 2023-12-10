@@ -1,0 +1,32 @@
+@import "../../global.scss";
+
+.sidePanel{
+  width: 50px;
+  height: 100%;
+  border-right: solid 1px $secondary;
+}
+
+.sidePanel__icon{
+  width: 42px;
+  height: 42px;
+  margin: 3px;
+  margin-bottom: 5px;
+  
+  border-radius: 10px;
+  user-select: none;
+  cursor: pointer;
+  color: $white;
+}
+
+.sidePanel__icon--active{
+  background-color: $primary;
+  color: $secondary;
+}
+
+.sidePanel__icon--active:hover{
+  background-color: $primary-light;
+}
+
+.sidePanel__icon:active{
+  background-color: $primary-dark;
+}

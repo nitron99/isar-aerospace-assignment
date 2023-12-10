@@ -1,0 +1,103 @@
+@import "./theme/colors";
+@import "./theme/fonts";
+
+@mixin fullWidthHeight {
+    width: 100%;
+    height: 100%;
+}
+
+.fullWidthHeight {
+    width: 100vw;
+    height: 100vh;
+}
+
+// ---------- global classes -----------
+.flexCenter_Row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.grid_2items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid_3items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.flexCenterSBRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexCenterEndRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.flexStartEndRow{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+
+.flexCenterCenterRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex_FEColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.flexCenterSBColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex_SAColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.flexCenterCenterColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+//---------- export to use in js file --------
+:export{
+    primary_light: $primary-light;
+    primary: $primary;
+    primary_dark: $primary-dark;
+
+    secondary: $secondary;
+    
+    altitude: $altitude;
+    temperature: $temperature;
+    velocity: $velocity;
+
+    background: $background;
+    background_panel: $background-panel;
+
+    black: $black;
+    white: $white;
+}
