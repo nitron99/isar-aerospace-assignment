@@ -22,3 +22,5 @@ standards or performance enhancements.
 2. There is mapping for current time ( or any time value ) to data values of Altitude, Temperature and Velocity. There should be a discrete x-axis(time) value to plot (x-y)point in graph.
 
 3. There should be units for Altitude, Temperature and Velocity(m/s, C, F, m, km/h) in a seperate https request. We should not add units data in websocket payload because it can make websocket's payload bulky and inefficient.
+
+4. We can also make https and web socket APIs to send data only to authenticated user by implementing a JWT authentication system.
