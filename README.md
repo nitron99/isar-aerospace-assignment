@@ -11,6 +11,14 @@ Repo Link - https://github.com/nitron99/isar-aerospace-assignment
 
 **Note** - Assignment A & B are both combined into one react app. Where you can get Spectrum's status via websocket or manually refresh (https request). There is also a 3D representation of spectrum to indicate "isAscending" key in the status object.
 
+**Package used**
+
+Networking - Axios<br>
+State management - Redux<br>
+3d rendering - 3js + react three fiber<br>
+Graphs and charts - Apex charts<br>
+
+
 ---
 <ins>**Assignment C**<ins>
 
