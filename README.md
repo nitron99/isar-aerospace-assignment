@@ -32,3 +32,6 @@ standards or performance enhancements.
 3. There should be units for Altitude, Temperature and Velocity(m/s, C, F, m, km/h) in a seperate https request. We should not add units data in websocket payload because it can make websocket's payload bulky and inefficient.
 
 4. We can also make https and web socket APIs to send data only to authenticated user by implementing a JWT authentication system.
+
+
+Credits - Fire animation in three.js was referenced from - [Link](https://codesandbox.io/p/sandbox/shader-fire-3878x)
